@@ -1,19 +1,21 @@
 // global constants
-const clueHoldTime = 1000; //how long to hold each clue's light/sound
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
+var pattern = [2,2,4,5,1,8,7];
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
 var guessCounter = 0;
+var clueHoldTime = 1000; //how long to hold each clue's light/sound
+var mistake = 0;
 // var tonePlaying = false;
 var volume = 0.5; //must be between 0.0 and 1.0
 
 function startGame() {
-  //initialize game variables
+  //initialize game variables 
+  mistake = 0;
   progress = 0;
   gamePlaying = true;
   // swap the Start and Stop buttons
@@ -35,6 +37,10 @@ const freqMap = {
   2: 329.6,
   3: 392,
   4: 466.2,
+  5: 250,
+  6: 355.7,
+  7: 420.4,
+  8: 521
 };
 function playTone(btn, len) {
   o.frequency.value = freqMap[btn];
@@ -81,6 +87,7 @@ function playSingleClue(btn) {
     lightButton(btn);
     playTone(btn, clueHoldTime);
     setTimeout(clearButton, clueHoldTime, btn);
+    clueHoldTime -= 35;
   }
 }
 
@@ -115,7 +122,11 @@ function guess(btn) {
       guessCounter++;
     }
   } else {
-    loseGame();
+    mistake += 1;
+    alert("Strike #" + mistake +".\n3 strikes is Game Over.");
+    if (mistake == 3){
+      loseGame();
+    } 
   }
 }
 
