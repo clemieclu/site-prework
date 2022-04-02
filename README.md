@@ -4,7 +4,7 @@
 
 Submitted by: **Yen Chi Nguyen**
 
-Time spent: **1.5** hours spent in total
+Time spent: **2.5** hours spent in total
 
 Link to project: (insert your link here, should start with https://glitch.com...)
 
@@ -22,12 +22,12 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
+* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
+* [x] Playback speeds up on each turn
 * [ ] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [x] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
@@ -39,10 +39,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![toySimon](https://user-images.githubusercontent.com/71671419/161367623-a64f4354-ac35-4a8e-96e3-8c11dd86b04d.gif)
+![toySimonLose](https://user-images.githubusercontent.com/71671419/161367628-251fd3cf-e836-4c81-82cb-582cc5cb2969.gif)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
