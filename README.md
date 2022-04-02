@@ -45,21 +45,19 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[No]
+[Yes, I used stackoverflow and GeeksForGeeks.]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[I am most proficient with Python and running into JavaScript was very new and even confusing to me. I took some time to read through some basics of JavaScript in order to clear the confusion. With that, I was able to implement more optional features to the game. Other challenges were related to the game balance. I wanted to make sure that the game makes sense to anyone who has no familiarity with Simon toy. To solve that, I playtested the game over and over and made sure to include thorough instructions.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[After completing the assignment I thought about is “What is the future of web hames?” I never realized how easy and fast web development is in comparison to game development. I was able to make a simple Simon toy within a couple of hours, whereas this same game would take me days to figure out on a gaming engine. I started to wonder if web development could become a new tool for game development. Of course, it won’t be AAA type of games, but I think web dev is great for hosting small but fun interactive games. After this experience, I want to look more into games that could be done through web development and research the opportunities in this field.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
-
+[[If I had more time, I would definitely make sure to finish all the additional features. I was very close to figuring out the randomization but I could not get the pattern array was to display its values in the log, thus I wasn’t able to debug it. With more time, I would try to see why my log statements don’t work and work further on debugging the application. And if I have even more free time, I would play around with UI and makes the website is presentable and fully functional.]
 
 
 ## Interview Recording URL Link
-
 [My 5-minute Interview Recording](your-link-here)
 
 
